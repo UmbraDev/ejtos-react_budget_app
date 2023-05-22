@@ -1,5 +1,9 @@
 import React, { createContext, useReducer } from 'react';
 
+export const ChangeCurrency = (state, currency) => {
+
+};
+
 // 5. The reducer - this is used to update the state, based on the action
 export const AppReducer = (state, action) => {
     let budget = 0;
